@@ -1,0 +1,233 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.tv-channel__item {
+    width: 280px;
+    display: inline-block;
+    min-height: 140px;
+    padding: 15px 40px 20px 15px;
+    position: relative;
+    vertical-align: top;
+}
+
+.tv-channel__left {
+    width: 40px;
+    position: absolute;
+    left: 0;
+}
+
+.tv-channel-item {
+    background: #fff;
+    padding: 5px 10px 5px;
+    -webkit-box-shadow: 0 3px 10px #ddd;
+    -ms-box-shadow: 0 3px 10px #ddd;
+    box-shadow: 0 3px 10px #ddd;
+    border: 2px solid #C7EAE9;
+}
+
+
+.tv-channel-item__header {
+    padding-left: 50px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+
+.tv-channel-item__body {
+    position: relative;
+    padding-left: 50px;
+}
+
+.tv-channel-item__logo {
+    height: 40px;
+    position: absolute;
+    left: 0;
+}
+
+    .tv-channel-item__logo img {
+        vertical-align: -12px;
+        width: 40px;
+    }
+
+
+.tv-channel-item__name span {
+    vertical-align: -12px;
+}
+
+.popup {
+    position: absolute;
+    z-index: 999;
+    width: 300px;
+    left: 0;
+}
+
+.tv-popup {
+    background-color: #f4fafb;
+    -webkit-box-shadow: 0 10px 20px -4px rgba(0, 0, 0, .4);
+    -ms-box-shadow: 0 10px 20px -4px rgba(0, 0, 0, .4);
+    box-shadow: 0 10px 20px -4px rgba(0, 0, 0, .4);
+}
+
+.tv-popup-channel-item {
+    padding: 0 5px 10px;
+}
+
+.tv-popup-channel-item__header {
+    margin: 0 -5px;
+}
+
+    .tv-popup-channel-item__header img {
+        width: 100%;
+    }
+
+.tag-type {
+    background-color: #74cbc8;
+    color: white;
+    border-radius: 2px;
+    padding: 5px;
+    display: inline-block;
+}
+
+.tv-popup-program__header-text {
+    padding: 10px 0;
+}
+
+.info-channel-program__body {
+    padding: 10px 5px;
+}
+
+.info-channel-program__footer {
+    padding: 10px 5px;
+}
+
+.tv-popup-program__footer {
+    padding: 10px 0 0;
+}
+
+.tv-popup-program__title {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.tv-popup-program__time {
+    border-radius: 50px;
+    background-color: white;
+    padding: 4px;
+}
+
+.tv-popup-program-body__category {
+    border-radius: 50px;
+    background-color: #74cbc8;
+    color: white;
+    padding: 4px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 0;
+    font-size: 14px;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: inset 0 1px 1px #ececec;
+    box-shadow: inset 0 1px 1px #ececec;
+}
+
+.active {
+    border-color: #74cbc8;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px #ececec,0 0 8px #74cbc8;
+    box-shadow: inset 0 1px 1px #ececec,0 0 8px #74cbc8;
+}
+
+.filter {
+    padding-left: 15px;
+}
+
+.filter-day__change-btn:hover {
+    box-shadow: inset 0 1px 1px #74cbc8;
+    border-color: #74cbc8;
+}
+
+.filter-day__change-btn {
+    margin-right: 5px;
+    background: transparent;
+}
+
+    .filter-day__change-btn:focus {
+        border-color: #74cbc8;
+        outline: 0;
+        -webkit-box-shadow: inset 0 1px 1px #ececec,0 0 8px #74cbc8;
+        box-shadow: inset 0 1px 1px #ececec,0 0 8px #74cbc8;
+    }
+
+.filter-day {
+    display: inline-block;
+}
+
+.filter-type {
+    display: inline-block;
+}
+
+.tv-channel__header {
+    padding-left: 15px;
+}
+
+.control-style {
+    width: 100%;
+    height: 40px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #888;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: inset 0 1px 1px #ececec;
+    box-shadow: inset 0 1px 1px #ececec;
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+    .control-style:focus {
+        border-color: #74cbc8;
+        outline: 0;
+        -webkit-box-shadow: inset 0 1px 1px #ececec,0 0 8px #74cbc8;
+        box-shadow: inset 0 1px 1px #ececec,0 0 8px #74cbc8;
+    }
+
+.filter__block {
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 640px) {
+    .header {
+        background-color: #C7EAE9;
+        padding: 20px 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .popup {
+        width: 280px;
+    }
+
+        .popup iframe {
+            width: 280px;
+        }
+
+    .tv-channel__item {
+        width: inherit;
+        padding: 15px 15px 20px 15px;
+    }
+
+    .filter-day__change-btn {
+        margin-right: 1px;
+    }
+}

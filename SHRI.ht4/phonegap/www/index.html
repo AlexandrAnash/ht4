@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>Программа ТВ</title>
+
+    <link rel="stylesheet" href="css/table-tv.css">
+</head>
+
+<body>
+    <h1 class="header">Программа ТВ </h1>
+    <div class="nav">
+        <!--<button class="btn btn-remove-db"> Удалить базу </button>-->
+    </div>
+    <div class="control-panel">
+        <div class="filter">
+            <div class="filter__block">
+                <label class="filter__label">Дни недели: </label>
+                <div class="filter-day"></div>
+            </div>
+            <div class="filter__block">
+                <label class="filter__label">Тип программы: </label>
+                <div class="filter-type">
+                    <select class="filter-category filter-type__select control-style"></select>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="tv-grid"></div>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/table-tv.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.tv-program" version="1.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+  <name>tv-program</name>
+  <description>
+    TV Progam
+  </description>
+  <author>
+    AlexAn
+  </author>
+  <content src="index.html" />
+  <access origin="*" />
+</widget>

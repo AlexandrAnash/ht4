@@ -1,0 +1,8 @@
+SHRI.ht4/bin/
+SHRI.ht4/node_modules/
+SHRI.ht4/obj/
+packages/
+SHRI.ht4/phonegap/platforms/android/cordova/node_modules/
+SHRI.ht4/phonegap/platforms/browser/cordova/node_modules/
+SHRI.ht4/phonegap/platforms/browser/
+SHRI.ht4/phonegap/platforms/android/
