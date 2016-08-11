@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+- '6'
+install:
+- npm install
+script:
+- npm run test-eslint
+- npm run test-karma
+deploy:
+  provider: heroku
+  api_key:
+    secure: h771Y/Ofjk9l0JZw6WD5FoStSDh0C3AB2QVk/fK0U/eK90RIfSVP/C6mrX/AzZEB5n1OiJRek5wheOyJAk6qeJQGL/rGi2FUnhtlMGQiTstLxvz0u123qLGouFup3AWUBcLuebijm0e2ndRalb9t1MbQK3NkUWj+UUCj2Trzj7PXj//ykrDpm0jWlvB3183Kx3PUWqAS6hZ7j8gZlKGcyeHnqV6DG1STZ0qriIlWMU0rlN4BIWUvS24YStaIlaJ1OKTEQaNNkK6Pd8gUvoHPpjHdY8SQ9LdVL/URQy1zVCyrZ4MX6ld0eclnF1N5nvFzOJO/4wyxzqYD7w0QSd/w6cctGclAcQxQRrc+rQROT8e6MFdeohs949zcdxJgXuKyZq0lSx/NzcquTr4OQ5D0mqNFibDJAm0JrIiAGTHOJ6XE+S8B93zozioqIwy5wjZnhldzCJ34TgonkaMMc3fSNE+mGkmj2YY3yUr0PWDWRk6xibUxojX+BLV5nMitWkkCYg49s7yGPkWoQk8q7GKfbNH5mJaOLXa3Miyr8bu/9ijsRo445wKS9MYK35oVR6M53yzlBhQrmXgSO4jUUQlDoJiLEDHpE5ILMXeYet1A8HpBCV+t9Dj2xXaSny2AKAQ+cSuiYqS2Q+41d2ZMqJiea2Kg3lryVKxjQgRUMdSDO58=
+  app: ht6
+  on:
+    repo: AlexandrAnash/ht6

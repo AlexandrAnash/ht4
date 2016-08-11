@@ -1,0 +1,44 @@
+{
+  "name": "ht6",
+  "version": "1.0.0",
+  "description": "infrastructure",
+  "main": "server/app",
+  "scripts": {
+    "start": "babel-node ./",
+    "test-eslint": "eslint .",
+    "test-karma": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexandrAnash/ht6.git"
+  },
+  "author": "AlexandrAnash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexandrAnash/ht6/issues"
+  },
+  "homepage": "https://github.com/AlexandrAnash/ht6#readme",
+  "devDependencies": {
+    "eslint": "^3.2.2",
+    "jasmine-core": "^2.4.1",
+    "karma": "^1.1.2",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.1",
+    "karma-webpack": "^1.8.0",
+    "phantomjs": "^2.1.7",
+    "webpack": "^1.13.1"
+  },
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.11.4",
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.4",
+    "babel-polyfill": "^6.13.0",
+    "babel-preset-es2015": "^6.13.2",
+    "body-parser": "^1.15.2",
+    "core-js": "^2.4.1",
+    "express": "^4.14.0",
+    "pg": "^6.0.3"
+  },
+  "keywords": []
+}
